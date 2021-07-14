@@ -153,6 +153,7 @@ main{
     font-size: 16px;
     line-height: 26px;
     color: #6C6C6C;
+    text-align: justify;
 
 }
 
@@ -240,6 +241,9 @@ main{
         grid-template-columns:1fr;
     }
 
+    .players{
+        /* margin-left: 0; */
+    }
     .banner .banner-img img{
         margin-top: 50px;
         width: 430px;
@@ -247,10 +251,15 @@ main{
         
     }
 
+    .footer .footer-img img{
+        width: 200px;
+        height: auto;
+    }
+
     .optional .optional-img img{
         margin-top: 30px;
-        width: 330px;
-        height: 300px;
+        width: 400px;
+        height: auto;
         
     }
 }
