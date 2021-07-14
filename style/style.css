@@ -227,6 +227,8 @@ main{
 
 
 
+
+
 /* Resposive */
 
 /* small screen (mobile) */
@@ -284,8 +286,9 @@ main{
     
     .banner .banner-img img{
         margin-top: 50px;
-        width: 430px;
-        height: 360px;
+        width: 350px;
+        height: auto;
+        margin-top: 150px;
         
     }
 
