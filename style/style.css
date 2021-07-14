@@ -1,6 +1,6 @@
-/* -----------
+/* -----------------------------
     Default css
---------------- */
+--------------- --------------*/
 
 *{
     margin: 0;
@@ -28,18 +28,22 @@ body{
     
 }
 
+hr{
+    width: 200px;
+    margin: 0 auto;
+    color: #6C6C6C;
+}
+
+
+
+
+/*-------------- default ends------------------- */
 
 
 
 
 
-/* default ends */
-
-
-
-
-
-/* Button style */
+/* ---------------------Button style ------------------*/
 
 
 
@@ -89,7 +93,7 @@ body{
 
 
 
-/* Header css starts */
+/* ------------------------Header css starts--------------------- */
 
 header{
     background-color: rgb(23, 57, 211);
@@ -131,7 +135,7 @@ header{
 }
 
 
-/* Main section */
+/* --------------------Main section --------------------*/
 main{
     background-color: rgb(255, 255, 255);
 }
@@ -199,7 +203,7 @@ main{
 }
 
 
-/* Coaches style */
+/*------------------------ Coaches style --------------------*/
 
 
 .coaches{
@@ -241,6 +245,64 @@ main{
     text-align: justify;
 
 }
+
+
+
+
+/*------------------------ News style --------------------------- */
+
+
+.news-section{
+    background-color: rgb(212, 212, 212);
+}
+
+.section-title{
+    padding-top:20px ;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 48px;
+}
+
+.newses{
+    width: 870px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.news{
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    opacity: .8;
+    transition: .4s;
+}
+.news:hover{
+    background-color:rgb(236, 203, 213);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.newses .news-img img{
+    width: 400px;
+    height: 310px;
+    
+    border-radius: 15px;
+}
+
+.news-info p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    text-align: justify;
+
+}
+
 
 /* main ends */
 
@@ -304,7 +366,7 @@ main{
         
     }
 
-    .players, .banner, .optional, .coaches{
+    .players, .banner, .optional, .coaches, .newses{
         grid-template-columns:1fr;
     }
     
@@ -314,6 +376,13 @@ main{
         width: 430px;
         height: 360px;
         
+    }
+
+    .newses .news-img img{
+        width: 300px;
+        height: 210px;
+        
+        border-radius: 15px;
     }
 
     .footer .footer-img img{
@@ -340,10 +409,16 @@ main{
     }
     
 
-    .players, .banner, .optional, .coaches{
+    .players, .banner, .optional, .coaches, .newses{
         grid-template-columns:1fr 1fr;
     }
 
+    .newses .news-img img{
+        width: 320px;
+        height: 220px;
+        
+        border-radius: 15px;
+    }
     
     
     .banner .banner-img img{
