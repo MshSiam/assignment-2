@@ -240,10 +240,48 @@ main{
     .players, .banner, .optional{
         grid-template-columns:1fr;
     }
+    .players{
+        margin-left: 0;
+    }
+    
+    .banner .banner-img img{
+        margin-top: 50px;
+        width: 430px;
+        height: 360px;
+        
+    }
+
+    .footer .footer-img img{
+        width: 200px;
+        height: auto;
+    }
+
+    .optional .optional-img img{
+        margin-top: 30px;
+        width: 400px;
+        height: auto;
+        
+    }
+}
+
+
+
+/* Tablet screen */
+
+@media (min-width:768px) and (max-width:1068px){
+    .container{
+        max-width: 100%;
+        
+    }
+
+    .players, .banner, .optional{
+        grid-template-columns:1fr 1fr;
+    }
 
     .players{
-        /* margin-left: 0; */
+        margin-left: 0;
     }
+    
     .banner .banner-img img{
         margin-top: 50px;
         width: 430px;
