@@ -12,9 +12,9 @@ body{
     font-family: 'Poppins', sans-serif;
     Width:100%;
     Height:100%;
-    
+    margin: 0;
+    padding: 0;
 
-    
 }
 
 
@@ -32,7 +32,9 @@ hr{
     width: 200px;
     margin: 0 auto;
     color: #6C6C6C;
+    
 }
+
 
 
 
@@ -356,14 +358,17 @@ main{
 
 
 
-/* Resposive */
+/* ------------------Resposive ---------------*/
 
-/* small screen (mobile) */
+/* -----------small screen (mobile)----------- */
 
 @media (max-width:668px){
     .container{
         max-width: 100%;
         
+    }
+    body{
+        overflow-x: hidden;
     }
 
     .players, .banner, .optional, .coaches, .newses{
@@ -400,13 +405,14 @@ main{
 
 
 
-/* Tablet screen */
+/*-------------------- Tablet screen ----------------*/
 
 @media (min-width:768px) and (max-width:1068px){
     .container{
         max-width: 100%;
         
     }
+    
     
 
     .players, .banner, .optional, .coaches, .newses{
